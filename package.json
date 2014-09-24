@@ -1,0 +1,34 @@
+{
+  "name": "hapi-myconnection",
+  "version": "0.0.10",
+  "description": "MySql plugin for Hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manV/hapi-myconnection.git"
+  },
+  "keywords": [
+    "hapi",
+    "mysql",
+    "connection",
+    "plugin"
+  ],
+  "author": "Manan Vaghasiya <manan.vaghasiya@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manV/hapi-myconnection/issues"
+  },
+  "homepage": "https://github.com/manV/hapi-myconnection",
+  "dependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "hapi": "^6.9.0",
+    "lab": "^4.4.4",
+    "mysql": "^2.5.1"
+  }
+}
